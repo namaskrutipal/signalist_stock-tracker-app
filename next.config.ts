@@ -4,9 +4,11 @@ const nextConfig = {
   /* config options here */
   eslint: {
     ignoreDuringBuilds: true
-  }, typescript: {
+  },
+  typescript: {
     ignoreBuildErrors: true
-  }
-
+  },
+  output: 'standalone',
 };
+
 export default nextConfig;
